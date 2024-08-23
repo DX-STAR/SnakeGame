@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.game-details {
+    margin-bottom: 10px;
+}
+
+.play-board {
+    width: 400px;
+    height: 400px;
+    background: #000;
+    position: relative;
+    margin: 0 auto;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.controls i {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.score, .high-score {
+    font-size: 1.2em;
+}
